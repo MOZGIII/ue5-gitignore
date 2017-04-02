@@ -1,24 +1,24 @@
-# Ignore all files by default, but scan all directories
+# Ignore all files by default, but scan all directories.
 *
 !*/
 
-# Do not ignore git files in the root of the repo
+# Do not ignore git files in the root of the repo.
 !/.git*
 
-# Do not ignore current project's .uproject
+# Do not ignore current project's `.uproject`.
 !/Game.uproject
 
-# Do not ignore source and config dirs
+# Do not ignore source and config dirs.
 !/Source/**
 !/Config/**
 
-# Only allow .uasset and .umap files from /Content 
+# Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
 # files if adding them here.
 !/Content/**/*.uasset
 !/Content/**/*.umap
 
-# OS/platform generated files
+# OS/platform generated files.
 
 # Windows
 ehthumbs.db
