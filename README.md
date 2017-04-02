@@ -12,7 +12,7 @@ A correct `git` setup example *with `git-lfs`* for Unreal Engine 4 projects.
 
 This setup does not include plugins support (so they would be ignored).
 You'll have to change `.gitignore` accordingly to support them.
-Pull requests are welcome! :wink: 
+Pull requests are welcome! :wink:
 
 ## Contributing
 
