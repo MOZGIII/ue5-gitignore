@@ -8,10 +8,11 @@ This template implies some conventions to be used correctly, which are discussed
 
 ### Repo Structure
 
-Repository structure is fixed, and it only has a few toplevel directores. Every other directory or file is ignored.
+Repository structure is fixed, and it only has a few toplevel directories. Every other directory or file is ignored.
 
 - `/Source`
 - `/Config`
+- `/Plugins`
 - `/Content`
 - `/RawContent`
 
@@ -25,6 +26,12 @@ Generated text files can reside in the local `/Source` dir, but should be ignore
 #### `/Config`
 
 Engine and game config files.
+
+#### `/Plugins`
+
+Game plugins. Every plugin lives in a subdirectory of the `/Plugins` dir. A plugin internal directory structure is not strictly documented, so there are no assumptions on how a plugin is structured.
+It may be useful to use git submodules to manage plugins in a more robust manner.
+It is expected that each plugin will have it's own `.gitignore` file in it's subdirectory, as well other required specific git tweaks.
 
 #### `/Content`
 
@@ -44,9 +51,7 @@ Game assets in Unreal Engine formats, `.uasset` and `.umap`. Only those two file
 
 ## Caveats
 
-This setup does not include plugins support (so they would be ignored).
-You'll have to change `.gitignore` accordingly to support them.
-Pull requests are welcome! :wink:
+Take special care when working with plugins. Plugin structure is not very well defined, so you will be able to mess the git repo up with big files if you commit them to a plugin directory.
 
 ## Contributing
 

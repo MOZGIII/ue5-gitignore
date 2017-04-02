@@ -8,9 +8,10 @@
 # Do not ignore current project's `.uproject`.
 !/Game.uproject
 
-# Do not ignore source and config dirs.
+# Do not ignore source, config and plugins dirs.
 !/Source/**
 !/Config/**
+!/Plugins/**
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
