@@ -55,6 +55,13 @@ Take special care when working with plugins. Plugin structure is not very well d
 
 ## Contributing
 
+### Rules
+
+This repo uses UNIX-style line endings and UTF-8.
+Make sure every line in a text file is ended with a newline (especially the last line in a file, git should notify you if you've lost it). This is due to how lines are [defined](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206). Fell free to search the web for more info on why to end every file with an "empty line".
+
+### How to contribute
+
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
