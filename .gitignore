@@ -19,10 +19,7 @@
 !/Content/**/*.umap
 
 # Allow any files from /RawContent dir.
-# Keep in mind you have to carefully manage `/RawContent`
-# directory to ensure nothing ends up in non-lfs git object.
-# Add new content types to lfs via `.gitattributes` as you
-# put them at `/RawContent`.
+# Any file in /RawContent dir will be managed by git lfs.
 !/RawContent/**/*
 
 # OS/platform generated files.
