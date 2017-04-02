@@ -10,27 +10,27 @@ This template implies some conventions to be used correctly, which are discussed
 
 Repository structure is fixed, and it only has a few toplevel directores. Every other directory or file is ignored.
 
-- /Source
-- /Config
-- /Content
-- /RawContent
+- `/Source`
+- `/Config`
+- `/Content`
+- `/RawContent`
 
 `git-lfs` management rules are mostly defined for file types, and not *paths*, however there can entire paths marked to be managed by `git-lfs`. Without a special note, expect only type-based rules apply to a directory.
 
-#### /Source
+#### `/Source`
 
 C++ source code is stored under the `/Source` path. As with most other directories, this directory is managed by standard git (and not `git-lfs`). That means no blobs. Do not put here any `.dll`s, `.exe`s, `.zip`s and other binaries. Only text files are allowed.
 Generated text files can reside in the local `/Source` dir, but should be ignored by git with additional entries in `.gitignore`.
 
-#### /Config
+#### `/Config`
 
 Engine and game config files.
 
-#### /Content
+#### `/Content`
 
 Game assets in Unreal Engine formats, `.uasset` and `.umap`. Only those two file types are allowed, everything else is ignored.
 
-#### /RawContent
+#### `/RawContent`
 
 **This directory is managed entirely by `git-lfs`.**
 
