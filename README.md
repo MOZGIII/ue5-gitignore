@@ -1,6 +1,6 @@
 # ue4-gitignore
 
-A correct `git` setup example *with `git-lfs`* for Unreal Engine 4 projects.
+A correct `git` setup example *with [`git-lfs`](https://git-lfs.github.com/)* for Unreal Engine 4 projects.
 
 ## Version Management Design and Conventions
 
