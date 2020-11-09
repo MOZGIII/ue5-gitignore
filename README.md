@@ -1,6 +1,6 @@
 # ue4-gitignore
 
-A correct `git` setup example *with [`git-lfs`](https://git-lfs.github.com/)* for Unreal Engine 4 projects.
+A correct `git` setup example _with [`git-lfs`](https://git-lfs.github.com/)_ for Unreal Engine 4 projects.
 
 ## Version Management Design and Conventions
 
@@ -16,7 +16,7 @@ Repository structure is fixed, and it only has a few toplevel directories. Every
 - `/Content`
 - `/RawContent`
 
-`git-lfs` management rules are mostly defined for file types, and not *paths*, however there can entire paths marked to be managed by `git-lfs`. Without a special note, expect only type-based rules apply to a directory.
+`git-lfs` management rules are mostly defined for file types, and not _paths_, however there can entire paths marked to be managed by `git-lfs`. Without a special note, expect only type-based rules apply to a directory.
 
 #### `/Source`
 
