@@ -47,7 +47,6 @@ Game assets in Unreal Engine formats, `.uasset` and `.umap`. Only those two file
 
 1. Set up `git` and `git-lfs`.
 2. Copy `.gitignore` and `.gitattributes` to your project.
-3. Change the `Game.uproject` in `.gitignore` to your `.uproject` file name.
 
 ## Caveats
 
