@@ -6,6 +6,10 @@ A correct `git` setup example _with [`git-lfs`](https://git-lfs.github.com/)_ fo
 
 This template implies some conventions to be used correctly, which are discussed below. You should be able copy and paste them into your project's `README.md` if you want to.
 
+> If you are using `git` with Unreal Engine, you might want to also
+> enable [One File Per Actor](https://docs.unrealengine.com/5.0/en-US/one-file-per-actor-in-unreal-engine/)
+> feature, as it provides a more atomic level versioning flow.
+
 ### Repo Structure
 
 Repository structure is fixed, and it only has a few toplevel directories. Every other directory or file is ignored.
